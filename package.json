@@ -15,7 +15,7 @@
   "dependencies": {
     "bluebird": "^3.3.5",
     "concurrently": "^2.0.0",
-    "node-rest-client": "^1.8.0"
+    "node-rest-client": "^3.1.1"
   },
   "scripts": {
     "postinstall": "bower install && typings install && echo Typings Installation version && typings -v && tsc && echo TypeScript Compilation version && tsc -v",
